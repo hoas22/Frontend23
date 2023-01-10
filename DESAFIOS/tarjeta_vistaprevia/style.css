@@ -1,0 +1,75 @@
+body {
+    /*
+    */
+    background-color: antiquewhite;
+}
+
+.container_general {
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    /*
+    */
+}
+
+.perfume {
+    border-radius: 3% 0% 0% 3%;
+}
+
+.detalle {
+    border-radius: 0% 3% 3% 0%;
+    
+}
+
+.detalle {
+    background-color: white;
+    width: 215px;
+    height: 360px;
+    padding: 0px 12px;
+    /*
+    padding: 0px 20px;
+    */
+}
+
+p {
+    display: inline-block;
+}
+
+.button {
+    /*
+    margin: auto;
+    */
+    background-color: rgba(5, 146, 146, 0.918);
+    display: block;
+    width: 215px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+
+@media only screen and (max-width: 500px){
+    .perfume {
+        /*
+        */
+        border-radius: 3% 3% 0% 0%;
+    }
+    
+    .detalle {
+        /*
+        background-color: aqua;
+        */
+        border-radius: 0% 0% 3% 3%;
+
+        
+    }
+}
+
+
+
+/*ESTILOS TEXTO*/
+
+.monto1 {
+    font-size: px
+}

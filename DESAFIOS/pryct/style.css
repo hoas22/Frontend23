@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.navbar li {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.containerPokedex {
+    background-color: rgb(237, 24, 55);
+    max-width: 1280px;
+    margin: auto;
+}
+
+.btnbox1, .btnbox2 {
+    text-align: center;
+}
+
+.btnregistro, .btnlogin {
+    background-color: rgb(94, 92, 92);
+    width: 300px;
+    border-style: none;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 15px;
+    cursor: pointer;
+    
+}
+
+.subtitle {
+    color: #ffffff;
+    text-align: center;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes img {
+    width: 13vh;
+    margin: 15px 10px;
+}
+
+.overlay {
+    position: relative;
+    height: 60vh;
+    background-size: cover;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(8,1fr);
+    /*
+    */
+
+    
+
+}
+
+.overlay::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.4);
+}
