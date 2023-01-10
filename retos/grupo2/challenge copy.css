@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*CUERPO*/
+
+body {
+    background-color: rgb(215, 238, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_msm {
+    padding: 50px 0px;
+    max-width: 950px;
+    margin: 30px auto;
+}
+
+
+.container_msm .group_chat, .container_msm .group_chat2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    
+    height: 180px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container_msm .group_chat3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 30px auto;
+    margin-right: 0px;
+    width: 850px;
+    
+    height: 180px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.group_chat4 {
+    
+    margin-left: 50px;
+    border-left: solid #dddada81;
+}
+
+/*LISTA_BOTONES*/
+
+.group_chat .button_number, .group_chat2 .button_number, .group_chat3 .button_number {
+    display: grid;
+    margin: 30px 15px 30px 30px;
+    
+}
+
+.button_number button{
+    border-style: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 18px;
+    width: 40px;
+    padding: 10px
+}
+
+.btn1 {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.btn3 {
+    border-radius: 0px 0px 10px 10px;
+
+}
+/**/
+
+.group_title_paragraf {
+    width: 800px;
+    margin: 20px;
+}
+
+.group_title_paragraf3 {
+    width: 700px;
+    margin: 20px;
+}
+
+/*TITULO*/
+
+.group_title_paragraf .container_title, .group_title_paragraf3 .container_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px ;
+}
+
+.container_title .title_elements {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.title_elements img {
+    width: 5vh;
+}
+
+.title_elements h2 {
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+.reply img {
+    width: 2vh;    
+}
+
+.title_elements span {
+    margin: auto 0;
+    margin-left: 20px;
+    color: rgba(10, 10, 10, 0.548);
+}
+
+.reply span {
+    
+    
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.title_elements .work {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+
+.reply .work1 {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #ff0000;
+}
+.reply .lapiz {
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+/*PARRAFO*/
+
+.paragraf p {
+    color: rgba(10, 10, 10, 0.548);
+}
+
+textarea {
+    padding: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn4 {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 20px 40px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.title_elements .texarea {
+    width: 10vh;
+}
+
+.btn1, .btn3 {
+    cursor: pointer;
+}
+
+/********************************************************************/
+
+
+
+
+
+
+

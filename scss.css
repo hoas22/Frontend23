@@ -1,0 +1,281 @@
+:root {
+    --sub_container: #B1D1E0;
+    --container: #9DB9C7;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    font-size: calc(10px + 3vmin);
+    */
+}
+
+body {
+    /*
+    background-color: #696969;
+    */
+    background-color: var(--container);
+}
+
+/*NAVEGACION*/
+
+.nav, ul li {
+    /*
+    background-color: #2F4F4F;
+    */
+    background-color: var(--sub_container);
+    border-radius: 10px;
+    
+}
+
+
+
+.box_nav {
+    /*
+    
+    */
+    display: flex;
+    flex-direction: row-reverse;
+    top: 3%;
+    position: fixed;
+    border: solid;
+    /*
+    margin: 1% 5%;
+    */
+    right: 5%;
+    left: 5%;
+    
+}
+
+.menu {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+ul li :hover {
+    /*
+    color: #DAA520;
+    */
+    color: #337EA1;
+    background-color: #4CBAED;
+}
+
+ul li ul {
+    display: none;
+    position: absolute;
+    
+}
+
+ul li:hover>ul {
+    display: block;
+}
+
+/*CONTAINER*/
+.group1 {
+    border: solid;    
+    margin-top: 80px;    
+}
+
+.container-label {
+    display: flex;
+    margin: 2% 5%;
+    justify-content: space-around;
+    
+    padding: 50px;
+    /*
+    background-color: #A9A9A9;
+    */
+    background-color: var(--sub_container);
+    border-radius: 10px;
+}
+.box-label {
+    border: solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.btn-primary {
+    padding: 5%;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: #DAA520;
+    text-shadow: 2px 2px 4px red;
+    color: #ffffffff;
+    background-color: #19c4c4;
+    cursor: pointer;
+    
+}
+
+
+
+.colina {
+    border: solid;
+    border-radius: 10px;
+}
+
+.img-profile {
+    width: 20vh;
+}
+
+.section-works {
+    margin: 2% 5%;
+    padding: 50px;
+    /*
+    background-color: #A9A9A9;
+    */
+    background-color: var(--sub_container);
+    border-radius: 10px;
+}
+
+.items {
+    border: solid;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hability {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hability h3 {
+    /*
+    */
+    padding: 2%;
+}
+
+.card {
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*
+    width: 1300px;
+    justify-content: space-between;
+    */
+}
+
+.card div {
+    padding: 1rem 2rem;
+    width: 40%;
+}
+
+
+.flayer img {
+    width: 100%;
+}
+
+.container_footer {
+    border: solid;
+}
+
+.group_footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 5%;
+    justify-content: center;
+    padding: 50px;
+    /*
+    background-color: #A9A9A9;
+    */
+    background-color: var(--sub_container);
+    border-radius: 10px;
+    
+}
+
+.item_contacto  img {
+    
+    width: 2rem;
+}
+
+.redes img {
+    width: 2rem;
+}
+
+.items_footer {
+    border: solid;
+    display: flex;
+}
+
+.items_footer div {
+    padding: 1rem;
+}
+
+.container_contacto {
+    border: solid;
+}
+
+.contacto_group div {
+    padding: 5px;
+}
+
+.container_contacto div {
+    padding: 5px;
+
+}
+
+/*
+@media screen and (max-width: 500px) {
+*/
+
+@media screen and (max-width: 855px) {
+    body {
+        background-color: rgb(0, 255, 76);
+        font-size: 70%;
+    }
+    .card div {
+        width: 85%;
+    }
+    
+}
+/*
+@media screen and (max-width: 720px) {
+    body {
+        background-color: blue;
+        font-size: 80%;        
+    }
+    .card div {
+        width: 85%;
+    }
+    
+}
+
+@media screen and (max-width: 1321px) {
+    .container-label {
+        width: 1150px;
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        
+        padding: 50px;
+        background-color: #A9A9A9;
+        border-radius: 10px;
+    }
+    
+}
+*/
+
+
+
+/*
+https://www.cerotec.net/tabla-colores-web
+https://www.arsys.es/blog/color-html
+https://lenguajecss.com/css/responsive-web-design/media-queries/
+*/

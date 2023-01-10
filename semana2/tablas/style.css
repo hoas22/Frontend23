@@ -1,0 +1,20 @@
+.tables {
+    border: 2px solid orange;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: cursive;
+    
+}
+
+th,td {
+    border: 1px solid red;
+}
+
+/*
+.mipagina {
+    background-image: url(src/paisaje.png);
+    background-repeat: no-repeat;
+}
+*/

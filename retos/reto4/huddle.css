@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main  {
+    margin: 20px;
+}
+
+/**HEADER**/
+
+.header {
+    position: fixed;
+    right: 2%;
+    left: 2%;
+    top: 8%;
+}
+
+.items_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div input {
+    border: none;
+    width: 180px;
+    height: 40px;
+    background-color: #ffff;
+    border-radius: 10px;
+    /**/
+}
+
+.items_huddle {
+    margin-left: 30px;
+}
+
+.items_nav {
+    margin-right: 30px;
+}
+
+
+
+.paragraf_grow h2, .paragraf_flowing h2, .paragraf_users h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+
+/**CONTAINER**/
+
+/*ARTICLE1*/
+.container_huddle {
+    background-image: url(/retos/src/bg-hero-desktop.svg);
+    
+    width: auto;
+    background-color: rgba(80, 205, 255, 0.863);
+}
+
+
+
+/*ARTICLE1*/
+.container_huddle .huddle_group {
+    display: flex;
+    flex-wrap: wrap;
+    /*
+    justify-content: center;
+    */
+}
+
+.huddle_group {
+    margin: 120px 30px 30px 30px;
+}
+
+.box_img {
+    width: 100%;
+}
+
+.figure_img {
+    width: 50%;
+}
+
+
+.box_paragraf {
+    width: 50%;
+    margin: auto 0px; 
+    /*margin-left: 30px ;
+    display: block;
+
+    align-items: center;
+    align-content: center;
+    *****
+    ***
+    */
+    
+}
+
+.parag {
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.box_paragraf h2 {
+    font-size: 32px;
+}
+
+.box_paragraf input {
+    border-radius: 30px;
+    border: none;
+    width: 50% ;
+    font-size: 80%;
+    height: 50px;
+    /*
+    width: 200px ;
+    padding: 14px 28px;
+    */
+    cursor: pointer;
+    background-color: rgba(247, 44, 186, 0.973);
+    color: white;
+    margin: 0px 20px;
+}
+/*
+ARTICLE2
+*/
+ .boxgrow_group {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.paragraf_grow, .boxgrow_group {
+    display: flex;
+    flex-wrap: wrap;
+    /*
+    justify-content: center;
+    */
+}
+
+.boxgrow_group {
+    margin: 100px 30px 10px;
+}
+
+.img_grow {
+    width: 100%;
+}
+
+.figure_grow {
+    width: 50%;
+}
+
+.paragraf_grow, .figure_grow {
+    width: 45%;
+    align-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    /*
+    margin: 30px;
+    */
+}
+/*
+ARTICLE3
+*/
+ .flowing_group {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.paragraf_flowing, .flowing_group {
+    display: flex;
+    flex-wrap: wrap;
+    /*
+    justify-content: center;
+    */
+}
+
+.flowing_group {
+    margin: 10px 30px 30px;
+}
+
+.img_flowing {
+    width: 100%;
+}
+
+.figure_flowing {
+    width: 50%;
+}
+
+.paragraf_flowing, .figure_flowing {
+    width: 45%;
+    align-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    /*
+    margin: 30px;
+    */
+}
+/*
+ARTICLE4
+*/
+.users_group {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.paragraf_users, .users_group {
+    display: flex;
+    flex-wrap: wrap;
+    /*
+    justify-content: center;
+    */
+}
+
+.users_group {
+    margin: 10px 30px 30px;
+}
+
+.img_users {
+    width: 100%;
+}
+
+.figure_users {
+    width: 50%;
+}
+
+.paragraf_users, .figure_users {
+    width: 45%;
+    align-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.group_footer {
+    /*
+    margin: 10px 47px 47px;
+    */
+    margin: 10px 30px 30px;
+    position: relative;
+    padding: 50px 0;
+    background-color: rgba(80, 205, 255, 0.863);
+    
+}
+
+
+.flotante {
+    position: absolute;
+    bottom: 250px;
+    left: 500px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 20px 20px 10px rgba(23, 88, 131, 0.726);
+    background-color: rgb(22, 170, 255);
+    color: #ffff;
+}
+
+.flotante h2 {
+    margin: 10px;
+}
+
+.flotante button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(11, 130, 228);
+    color: #ffff;
+}
+
+
+.group_footer .items_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 30px 30px ;
+}
+
+.items_footer .redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.item_contacto div {
+    display: flex;
+}
+
+.item_contacto div img {
+    width: 25px;
+}
+
+.item_contacto div h2 {
+    margin-left: 10px;
+}
+
+.list_redes {
+    
+    width: 300px;
+}
+
+
+.redes {
+    width: 250px;
+}
+
+.redes img {
+    width: 45px;
+}
+
+.list_redes ul li {
+    list-style: none;
+}
+
+
+
+.list_redes ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+.list_redes ul li {
+    margin: 0px 30px;
+}

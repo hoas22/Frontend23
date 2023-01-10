@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: solid;
+    background-color: #e3f2fd;
+
+}
+
+.logo {
+    width: 5vh;
+}
+
+header {
+    width: 80rem;
+    margin: 80px auto;
+    border: solid;
+}
+
+main {
+    width: 60rem;
+    margin: 80px auto
+}
+
+section {
+    border: solid;
+    flex-wrap: wrap;
+}
+
+article {
+    margin-top: 20px;
+}

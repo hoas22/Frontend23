@@ -1,0 +1,54 @@
+@import "./variables.scss";
+
+
+
+
+// .cuadrado{
+//     width: 300x;
+//     height: 300px;
+//     background-color: $color-red;
+// }
+
+body{
+    background-color: $color-principal
+}
+
+//mixin en sass 
+//son un tipo de funxcion la xual nos permite 
+//almacenar un codigo y puede reutilizarlo
+//podemos pasarle una variable 
+
+//la idea de pasar un mixin y el color de fondo sea una variable
+
+//el nombre puede ser cualquiera
+
+.success{
+  @include alertita($bg:green);
+}
+
+.info{
+    @include alertita;
+}
+
+//asi como los mixin  retorna una porcion de codigo . tambuen puede retorna  una clase directa
+@mixin generate-icons($name,$icon,$color,$size){
+    .div-icon-#{$name}{
+        background: url("./img/#{$icon}");
+        border: solid 2px $color;
+        background-size: cover;
+        width: $size;
+        height: $size;
+
+    }
+}
+
+
+
+
+
+
+@include generate-icons("phone","telefono.jpg",rgb(252,135,143),400px);
+@include generate-icons("mail","email.png",rgb(220,135,143),400px);
+@include generate-icons("laptop","laptop.jpg",rgb(270,135,143),400px);
+
+

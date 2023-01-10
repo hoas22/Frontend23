@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(109, 214, 174);
+}
+
+.success {
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.info {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.div-icon-phone {
+  background: url("./img/telefono.jpg");
+  border: solid 2px rgb(252, 135, 143);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.div-icon-mail {
+  background: url("./img/email.png");
+  border: solid 2px rgb(220, 135, 143);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.div-icon-laptop {
+  background: url("./img/laptop.jpg");
+  border: solid 2px rgb(255, 135, 143);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}/*# sourceMappingURL=main.css.map */

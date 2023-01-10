@@ -1,0 +1,252 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%)
+        /* font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url('./src/desktop/image-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.ul__nav {
+    display: flex;
+}
+
+.ul__nav li {
+    margin-left: 1rem;
+    list-style: none;
+    color: var(--White);
+    font-family: 'Alata', sans-serif;
+    
+}
+
+
+
+/* CONTENEDOR TEXTO HEADER */
+
+.conainter__header__text {
+    border: 0.1rem solid var(--White);
+    width: 50%;
+    padding: 2rem;
+    margin-top: 10rem;
+    color: var(--White);
+}
+
+.conainter__header__text h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.container__main {
+    width: 1024px;
+}
+
+.section__main {
+    /* background: red; */
+    position: relative;
+    height: 400px;
+}
+
+.section__main img {
+    background-size: cover;
+    width: 75%;
+    height: 100%;
+}
+
+.container__section {
+    position: absolute;
+    background-color: var(--White);
+    padding: 5rem 0 0 5rem;
+    width: 40%;
+    bottom: 0;
+    right: 0;
+}
+
+.container__section h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.container__section p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+/*RESPONSIVE*/
+/*BURGER*/
+.burger {
+    display: none;
+    /*
+    */
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.burger span {
+    background-color: #fff;
+    display: block;
+    height: 3px;
+    width: 30px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+
+/*BURGER*/
+@media  (max-width:750px) {
+    body{
+        overflow: hidden;
+    }
+
+    .burger {
+        display: block;
+        /*
+        */
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        transition: 0.2s 0.1s;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+
+    .ul__nav {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 15vh;
+        margin: 0;
+        padding: 0;
+        display: none;
+        /*
+        */
+        opacity: 0;
+        transition: opacity 5s ease-out;
+        /*
+        */
+        width: 100%;
+    }
+
+    .ul__nav li{
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    
+}
+
+/*ANIMACIONES MENU*/
+@keyframes mostrarmenu {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.ul__nav.activado {
+    display: flex;
+    animation: mostrarmenu 350ms ease-in-out both ;
+}
+
+
+.button1.animado{
+    transform: rotate(-45deg) translate(-10px,8px);
+}
+
+.button2.animado{
+    opacity: 0;
+}
+
+.button3.animado{
+    transform: rotate(45deg) translate(-10px,-8px);
+}
+.burger.girar:hover{ 
+    transform: rotate(360deg)
+}
+
+
+/*HEADER*/
+@media only screen and (max-width: 1440px){
+    .header {
+        background-size: 100%;
+    }
+
+    .ul__nav {
+        font-size: calc(0.5em + 0.5vw);
+        margin-right: 10px;
+        /*
+        display: flex;
+        align-items: center;
+        */
+        
+    }
+
+    .ul__nav li {
+        margin: 0;
+        padding: 5px 10px;
+        border-radius: 10px;
+        
+    }
+
+    .ul__nav li:hover {
+        /*
+        */
+        background-color: rgba(164, 84, 238, 0.911);
+        color: rgb(110, 3, 93);
+        cursor: pointer;
+    }
+
+    .conainter__header__text{
+        padding: 1vw;
+        margin-top: 5vw;
+        /*
+        margin-top: calc(10em + 5vw);
+        */
+    }
+    
+    .conainter__header__text h1{
+        font-size: calc(1em + 1vw);
+    }
+
+    
+}
+
+

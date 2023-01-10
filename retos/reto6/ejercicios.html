@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicios.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="title">ELIGE LA PREGUNTA A RESOLVER:</h1>
+    <div class="container">
+
+
+        <div class="question">
+            <ol>
+                <li>Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en
+                    pantalla.</li>
+                <li>Registrar el ingreso de notas de 4 examenes y calcular el promedio de estos.</li>
+                <li>Calcular el área del Rectángulo</li>
+                <li>Calcular el área del Triángulo</li>
+                <li>Calcular el área del Circunferencia</li>
+                <li>Determinar el sueldo semanal de un trabajador basándose en sus horas trabajadas y su salario de hora
+                    hombre.</li>
+                <li>Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero. Para cada pedido,
+                    tiene que proporcionar las medidas de la tela en pulgadas, pero ella generalmente las tiene en
+                    metros. Realice un algoritmo para ayudar a resolver el problema, determinando cuantas pulgadas debe
+                    pedir con base en los metros que requiere. (1 pulgada = 0.0254 m).</li>
+                <li>Una empresa importadora desea determinar cuántos dólares puede adquirir con equis cantidad de dinero
+                    peruano.</li>
+                <li>Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo,
+                    pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron.</li>
+                <li>Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la edad de la persona de
+                    menor edad.</li>
+                <li>Se les dará un bono por antiguedad a los empleados de una tienda. Si tienen un año, se les dará
+                    $100; si tienen 2 años, $200, y asi sucesivamente hasta los 5 años. Para los que tengan más de 5, el
+                    bono será de $1000. Realice un algoritmo y represéntelo que permita determinar el bono que recibirá
+                    un trabajador.</li>
+                <li>Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10% anual durante 6 años.
+                    ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido en cada uno de los 6 años? Realice
+                    el algoritmo y representa la solución, utilizando el ciclo apropiado.</li>
+                <li>Realice un algoritmo para leer las calificaciones de N alumnos y determine el número de aprobados y
+                    reprobados.</li>
+                <li>Una compañía, fabrica focos de colores (verdes, blancos y rojos). Se desea contabilizar de un lote
+                    de N focos (matrices), el número de focos de cada color que hay en existencia.</li>
+                <li>Realice un algoritmo para determinar si una persona puede votar con base en su edad en las proximas
+                    elecciones.</li>
+            </ol>
+        </div>
+        <div class="operations" id="operations">
+            <div class="items_operations">
+                <div class="flotante0">
+                    <label for="">N° de Pregunta :</label>
+                    <input class="txt" type="text" id="npregunta" placeholder="Escribe el N° de la pregunta">
+                </div>
+                <div class="flotante1" id="flotante1">
+                    <div class="sub_flotante" id="sub_flotante1">
+                        <label for="" id="sub_etiqueta1">Escribiendo... :</label>
+                        <input class="txt" type="text" id="sub_text1" placeholder="escribiendo...">
+                    </div>
+                    <div class="sub_flotante" id="sub_flotante2">
+                        <label for="" id="etiqueta1">Escribiendo... :</label>
+                        <input class="txt" type="number" id="text1" placeholder="escribiendo...">
+                    </div>
+                </div>
+                <div class="flotante2" id="flotante2">
+                    <div class="sub_flotante" id="sub_flotante3">
+                        <label for="" id="sub_etiqueta2">Escribiendo... :</label>
+                        <input class="txt" type="text" id="sub_text2" placeholder="escribiendo...">
+                    </div>
+                    <div class="sub_flotante" id="sub_flotante4">
+                        <label for="" id="etiqueta2">Escribiendo... :</label>
+                        <input class="txt" type="number" id="text2" placeholder="escribiendo...">
+                    </div>
+                </div>
+                <div class="flotante3" id="flotante3">
+                    <div class="sub_flotante" id="sub_flotante5">
+                        <label for="" id="sub_etiqueta3">Escribiendo... :</label>
+                        <input class="txt" type="text" id="sub_text3" placeholder="escribiendo...">
+                    </div>
+                    <div class="sub_flotante" id="sub_flotante6">
+                        <label for="" id="etiqueta3">Escribiendo... :</label>
+                        <input class="txt" type="number" id="text3" placeholder="escribiendo...">
+                    </div>
+                </div>
+                <div class="flotante4" id="flotante4">
+                    <div class="sub_flotante">
+
+                        <label for="" id="etiqueta4">Escribiendo... :</label>
+                        <input class="txt" type="number" id="text4" placeholder="escribiendo...">
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="select" id="select">Seleccionar</button>
+                <button class="addd" id="addd">Agregar</button>
+                <button class="calculate" id="calculate">Calcular</button>
+            </div>
+        </div>
+        <div class="response">
+            <h2 class="title" id="title">...</h2>
+            <div class="answer">
+                <label class="label" for="" id="result">...</label>
+            </div>
+        </div>
+    </div>
+    <script src="ejercicios.js"></script>
+</body>
+
+</html>
